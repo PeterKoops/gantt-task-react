@@ -14,6 +14,7 @@ export interface Task {
   id: string;
   type: TaskType;
   name: string;
+  barname: string;
   start: Date;
   end: Date;
   /**
